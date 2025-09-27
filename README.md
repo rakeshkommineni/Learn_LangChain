@@ -60,8 +60,8 @@ I’m completing each module step by step — rewriting, experimenting, and buil
 - Git / GitHub for version control
 
 ## Future Plans
-Add unit tests for chains and agents
-Build a FastAPI demo using RAG
-Experiment with different vector databases (FAISS → Pinecone, Qdrant)
+*Adding unit tests for chains and agents
+*Building a FastAPI demo using RAG
+*Experimenting with different vector databases (FAISS → Pinecone, Qdrant)
 
  This repo is my public devlog— not a finished product, but it's just a record of my growth as a data engineer exploring LLM application development with LangChain.
