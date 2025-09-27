@@ -1,49 +1,86 @@
-Learn LangChain
+# Learn LangChain
 
-This is my hands-on learning journey through LangChain, following the langchain-courses that are available online. I’m completing each module step-by-step, rewriting, experimenting, and building alongside.
+> A personal, hands-on learning journey through [LangChain](https://www.langchain.com/).  
+> I’m following publicly available LangChain courses and expanding with my own experiments, notes, and mini-projects.
 
 ---
 
-## this repo presents with topics below
+## What You’ll Find Here
 
-1. Chat_models | Basic chat models | Experimented with different LLM's like `gpt-3.5-turbo`, GPT 4, Claude Sonnet + memory |
-2. Prompt_templates | Template design, prompt libs | Tested temperature / logit bias |
-3. chains | Chains, sequential processing | Built custom chain with error handling |
-4. RAGs | Retrieval Augmented Generation | Used FAISS, tried metadata filtering |
-5. Agents & Tools, decision logic, multi-step agents | Created simple agent calling weather API |
+I’m completing each module step by step — rewriting, experimenting, and building as I learn.
 
+| # | Topic | Highlights |
+|---|-------|-----------|
+| 1 | **Chat Models** | Explored `gpt-3.5-turbo`, GPT-4, Claude Sonnet, added memory to conversations |
+| 2 | **Prompt Templates** | Designed dynamic templates, tested temperature & logit bias |
+| 3 | **Chains** | Built sequential/custom chains with error handling |
+| 4 | **Retrieval Augmented Generation (RAG)** | Implemented FAISS vector store, metadata filtering |
+| 5 | **Agents & Tools** | Created simple multi-step agents (e.g., weather API) |
 
+---
 
-## How to Use This Repo 
+## Getting Started
 
-1. Clone this repo
+1. **Clone this repo**
 
    ```bash
    git clone https://github.com/rakeshkommineni/Learn_LangChain.git
    cd Learn_LangChain
 
-2. Set Up virtual environment 
-    
-    python -m venv myvenv
-    # Windows (PowerShell):
-    .\myvenv\Scripts\Activate.ps1
-    # Git Bash / Unix-style:
-    source myvenv/Scripts/activate
+2. **Set up a virtual environment**
 
-3. Install dependencies
+        In bash
+        (Copy code)
+        python -m venv myvenv 
+        # Activate (choose one depending on your shell):
+        # PowerShell
+        .\myvenv\Scripts\Activate.ps1
+        # Git Bash / WSL
+        source myvenv/Scripts/activate
 
+3. **Install dependencies**
+
+    ```bash
+    Copy code
     pip install -r requirements.txt
 
-4. Open in Vs Code
+4. **Open in VS Code**
 
-    Select the myvenv interpreter.
-    Open modules in the Explorer.
+    Select the myvenv Python interpreter.
+    Open the modules or notebooks in the Explorer.
 
-5. Run / experiment
+5. **Run & experiment**
 
-    Go module by module or notebook by notebook.
-    Make your own forks, modifications, and notes.
+    Follow the modules to jump around.
+    Fork, modify, and add your own notes as you learn.
+    
+
+### 📁 Project Structure 
+
+Learn_LangChain/
+│  README.md
+│  requirements.txt
+│  .gitignore
+│
+├─ 1.chat_models/
+├─ 2.prompt_templates/
+├─ 3.chains/
+├─ 4.RAGs/
+├─ 5.agents/
 
 
-> A personal learning repository documenting my step-by-step exploration of [LangChain](https://www.langchain.com/).  
-> Following harishneel1's langchain-course and expanding with my own experiments, notes, and mini-projects.
+
+### Tech & Tools
+
+Python 3.11+
+LangChain
+OpenAI API
+VS Code + Jupyter Notebooks
+Git / GitHub for version control
+
+## Future Plans
+Add unit tests for chains and agents
+Build a FastAPI demo using RAG
+Experiment with different vector databases (FAISS → Pinecone, Qdrant)
+
+ This repo is my public devlog— not a finished product, but it's just a record of my growth as a data engineer exploring LLM application development with LangChain.
