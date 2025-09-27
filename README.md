@@ -29,8 +29,7 @@ I’m completing each module step by step — rewriting, experimenting, and buil
 
 2. **Set up a virtual environment**
 
-        In bash
-        (Copy code)
+        ```bash
         python -m venv myvenv 
         # Activate (choose one depending on your shell):
         # PowerShell
@@ -41,12 +40,11 @@ I’m completing each module step by step — rewriting, experimenting, and buil
 3. **Install dependencies**
 
     ```bash
-    Copy code
     pip install -r requirements.txt
 
 4. **Open in VS Code**
 
-    Select the myvenv Python interpreter.
+    Select the Python interpreter from VENV.
     Open the modules or notebooks in the Explorer.
 
 5. **Run & experiment**
@@ -62,21 +60,20 @@ Learn_LangChain/
 │  requirements.txt
 │  .gitignore
 │
-├─ 1.chat_models/
-├─ 2.prompt_templates/
-├─ 3.chains/
-├─ 4.RAGs/
-├─ 5.agents/
-
+├─ 1_chat_models/
+├─ 2_prompt_templates/
+├─ 3_chains/
+├─ 4_RAGs/
+├─ 5_agents/
 
 
 ### Tech & Tools
 
-Python 3.11+
-LangChain
-OpenAI API
-VS Code + Jupyter Notebooks
-Git / GitHub for version control
+- Python 3.11+,
+- LangChain
+- OpenAI API
+- VS Code
+- Git / GitHub for version control
 
 ## Future Plans
 Add unit tests for chains and agents
