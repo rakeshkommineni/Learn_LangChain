@@ -51,22 +51,6 @@ I’m completing each module step by step — rewriting, experimenting, and buil
 
     Follow the modules to jump around.
     Fork, modify, and add your own notes as you learn.
-    
-
-### 📁 Project Structure 
-
-Learn_LangChain/
-│  README.md
-│  requirements.txt
-│  .gitignore
-│
-├─ 1_chat_models/
-├─ 2_prompt_templates/
-├─ 3_chains/
-├─ 4_RAGs/
-├─ 5_agents/
-
-
 ### Tech & Tools
 
 - Python 3.11+,
