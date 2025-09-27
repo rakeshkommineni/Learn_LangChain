@@ -53,15 +53,15 @@ I’m completing each module step by step — rewriting, experimenting, and buil
     Fork, modify, and add your own notes as you learn.
 ### Tech & Tools
 
-- Python 3.11+,
+- Python 3.11+
 - LangChain
 - OpenAI API
 - VS Code
 - Git / GitHub for version control
 
 ## Future Plans
-*Adding unit tests for chains and agents
-*Building a FastAPI demo using RAG
-*Experimenting with different vector databases (FAISS → Pinecone, Qdrant)
++ Adding unit tests for chains and agents
++ Building a FastAPI demo using RAG
++ Experimenting with different vector databases (FAISS → Pinecone, Qdrant)
 
  This repo is my public devlog— not a finished product, but it's just a record of my growth as a data engineer exploring LLM application development with LangChain.
