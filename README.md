@@ -64,4 +64,5 @@ I’m completing each module step by step — rewriting, experimenting, and buil
 + Building a FastAPI demo using RAG
 + Experimenting with different vector databases (FAISS → Pinecone, Qdrant)
 
- This repo is my public devlog— not a finished product, but it's just a record of my growth as a data engineer exploring LLM application development with LangChain.
+
+> This repo is my public devlog— not a finished product, but it's just a record of my growth as a data engineer exploring LLM application development with LangChain and by following available resources and harishneel1's vlogs. 
