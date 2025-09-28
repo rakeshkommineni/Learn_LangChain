@@ -3,3 +3,4 @@ __pycache__/
 .env
 .ipynb_checkpoints/
 .DS_Store
+Chat_Models/sample_model.py
